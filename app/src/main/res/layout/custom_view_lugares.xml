@@ -1,0 +1,110 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="347dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtDirecion"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="386dp"
+            android:layout_marginBottom="-51dp"
+            android:src="@drawable/ic_baseline_star_border_24">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageNt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logopt" />
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageNt"
+            android:layout_toRightOf="@+id/imageNt"
+            android:text="@string/nombre"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDirecion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNombre"
+            android:layout_marginStart="-83dp"
+            android:layout_marginLeft="-83dp"
+            android:layout_marginTop="225dp"
+            android:layout_toEndOf="@+id/imageNt"
+            android:layout_toRightOf="@+id/imageNt"
+            android:text="@string/direcion"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtHorarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNombre"
+            android:layout_marginStart="-89dp"
+            android:layout_marginLeft="-89dp"
+            android:layout_marginTop="103dp"
+            android:layout_toEndOf="@+id/imageNt"
+            android:layout_toRightOf="@+id/imageNt"
+            android:text="@string/Horarios"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNombre"
+            android:layout_marginStart="-92dp"
+            android:layout_marginLeft="-92dp"
+            android:layout_marginTop="162dp"
+            android:layout_toEndOf="@+id/imageNt"
+            android:layout_toRightOf="@+id/imageNt"
+            android:text="@string/descripcion"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtDirecion"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="359dp"
+            android:layout_marginBottom="-51dp"
+            android:src="@drawable/ic_baseline_star_border_24">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtDirecion"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="332dp"
+            android:layout_marginBottom="-51dp"
+            android:src="@drawable/ic_baseline_star_border_24">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
